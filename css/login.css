@@ -1,0 +1,40 @@
+#heading {
+    background-color: #4FC3F7;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.input_elements {
+	background-color: white;
+	padding: 10px;
+}
+
+.input_elements {
+    background-color: white;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 3px;
+    border: 1px solid #4fc3f7;
+    width: 500px;
+}
+
+.container {
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+label {
+	margin-right: 40px;
+}
+
+#button {
+	    background: #4fc3f7;
+    	border: 1px solid #039BE5;
+    	color: white;
+}
+
+#button-container {
+	text-align: center;margin-top: 20px;
+}
