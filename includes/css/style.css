@@ -5,11 +5,16 @@ h1,#copyright{
 }
 
 ul {
-	border: 1px solid #777;
+/*	border: 1px solid #777;*/
     width: 200px;
     list-style-type: none;
 }
 
 ul li {
-	border: 1px solid blue;
+	border: 1px solid #2d4c4b;
+	padding: 5px 5px
+}
+
+ul li a {
+	text-decoration: none;
 }
