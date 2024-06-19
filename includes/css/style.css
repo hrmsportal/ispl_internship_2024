@@ -1,0 +1,15 @@
+h1,#copyright{
+	background-color: #80DEEA;
+	padding: 10px;
+    border-radius: 5px;
+}
+
+ul {
+	border: 1px solid #777;
+    width: 200px;
+    list-style-type: none;
+}
+
+ul li {
+	border: 1px solid blue;
+}
