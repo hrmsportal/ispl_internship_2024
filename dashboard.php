@@ -1,7 +1,7 @@
 <?php session_start();
 
 if ($_SESSION['user_id']) {
-require_once('common/header.php') ?>
+require_once('common/header.php'); ?>
 
 <center><h1>Dashobard</h1></center>
 

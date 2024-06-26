@@ -1,10 +1,10 @@
-<?php require_once('../common/header.php'); ?>
+<?php require_once(dirname(__DIR__).'/common/header.php'); ?>
 
 <center><h1>Employees' List</h1></center>
 
 <div>
 	<div class="left-sidebar">
-<?php require_once('../sidebars/left-sidebar.php') ?>
+<?php require_once(BASE_DIR.'/sidebars/left-sidebar.php') ?>
 	</div>
 	<div class="content">
 		

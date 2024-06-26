@@ -35,6 +35,12 @@ ul li a {
 	text-decoration: none;
 }
 
+ul.header-menus {
+	float: right;
+	width: auto;
+    margin-right: 10px;
+}
+
 ul.header-menus li {
 	float: left;
 }
