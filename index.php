@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -22,8 +23,10 @@
 </style>
 
 <!-- css : tags, attributes, class, id, nth element -->
-
 	<div class="container">
+
+<?php require_once('login-submit.php'); ?>
+
 <h1 id="heading">Login Page</h1>
 	<form action="" method="post">
 		<div>

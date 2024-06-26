@@ -34,3 +34,7 @@ ul li {
 ul li a {
 	text-decoration: none;
 }
+
+ul.header-menus li {
+	float: left;
+}

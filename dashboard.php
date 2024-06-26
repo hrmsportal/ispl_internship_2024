@@ -1,4 +1,7 @@
-<?php require_once('common/header.php') ?>
+<?php session_start();
+
+if ($_SESSION['user_id']) {
+require_once('common/header.php') ?>
 
 <center><h1>Dashobard</h1></center>
 
@@ -11,4 +14,11 @@
 <p>Something awesome comming soon...</p>
 	</div>
 </div>
-<?php require_once('common/footer.php') ?>
+<?php require_once('common/footer.php');
+} else {
+
+header('location:index.php');
+
+}
+
+ ?>
