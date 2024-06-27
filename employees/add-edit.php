@@ -1,13 +1,16 @@
-<?php require_once('common/header.php') ?>
+<?php require_once(dirname(__DIR__).'/common/header.php') ?>
 
-<center><h1>Employees' List</h1></center>
+<center><h1>Add/edit employee details</h1></center>
 
 <div>
 	<div class="left-sidebar">
-<?php require_once('sidebars/left-sidebar.php') ?>
+<?php require_once(BASE_DIR.'/sidebars/left-sidebar.php') ?>
 	</div>
 	<div class="content">
-		<?php require_once('form.php') ?>
+		<a href="<?php echo BASE_URL ?>/employees/list.php" class="btn">Go Back</a>
+		<?php 
+		require_once(BASE_DIR.'/employees/save.php');
+		require_once(BASE_DIR.'/employees/form.php'); ?>
 	</div>
 </div>
-<?php require_once('common/footer.php') ?>
+<?php require_once(BASE_DIR.'/common/footer.php') ?>

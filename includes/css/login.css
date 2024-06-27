@@ -1,9 +1,21 @@
 #heading {
-    background-color: #4FC3F7;
+    /*background-color: #4FC3F7;
     color: white;
     padding: 10px;
     border-radius: 5px;
+    text-align: center;*/
+
     text-align: center;
+    border: 1px solid #777;
+    padding: 10px;
+    width: 50%;
+    margin-left: 25%;
+}
+
+form{
+    border: 1px solid #7777779e;
+    padding: 30px;
+    border-radius: 5px;
 }
 
 .input_elements {
@@ -16,8 +28,9 @@
     padding: 5px;
     margin-top: 10px;
     border-radius: 3px;
-    border: 1px solid #4fc3f7;
+    border: 1px solid #ababab;
     width: 500px;
+    height: 30px;
 }
 
 .container {
@@ -30,9 +43,12 @@ label {
 }
 
 #button {
-	    background: #4fc3f7;
-    	border: 1px solid #039BE5;
-    	color: white;
+	    background: transparent;
+    border: 1px solid #ababab;
+    color: black;
+    font-size: 30px;
+    border-radius: 3px;
+    padding: 10px;
 }
 
 #button-container {

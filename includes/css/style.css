@@ -31,7 +31,7 @@ ul li {
 	padding: 5px 5px
 }
 
-ul li a {
+body a {
 	text-decoration: none;
 }
 
@@ -44,3 +44,15 @@ ul.header-menus {
 ul.header-menus li {
 	float: left;
 }
+
+
+.btn {
+	border: 1px solid #777777b5;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.form-container{
+	    width: 100%;
+    	margin: 20% 50%;
+	}

@@ -8,7 +8,8 @@
 	</div>
 	<div class="content">
 		
-<p>Something awesome comming soon...</p>
+		<a href="<?php echo BASE_URL ?>/employees/add-edit.php" class="btn">Add New</a>
+		
 	</div>
 </div>
 <?php require_once('../common/footer.php') ?>

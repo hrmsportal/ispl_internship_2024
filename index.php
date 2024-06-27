@@ -1,10 +1,14 @@
-<?php session_start(); ?>
+<?php session_start();
+
+require_once('config.php');
+
+ ?>
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/login.css?v=1.1">
+	<link rel="stylesheet" type="text/css" href="<?php echo BASE_URL ?>includes/css/login.css?v=1.1">
 	<title>Login</title>
 </head>
 <body>
