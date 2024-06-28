@@ -8,8 +8,8 @@
 	<title>Dashboard</title>
 	<link rel="stylesheet" type="text/css" href="<?php echo BASE_URL ?>includes/css/style.css?v=2">
  <ul class="header-menus">
-	<li><a href="profile.php">My profile</a></li>
-	<li><a href="logout.php">Logout</a></li>
+	<li><a href="<?php echo BASE_URL ?>profile.php">My profile</a></li>
+	<li><a href="<?php echo BASE_URL ?>logout.php">Logout</a></li>
 </ul>
 </head>
 <body>

@@ -1,5 +1,5 @@
 <?php require_once(dirname(__DIR__).'/common/header.php') ?>
-
+<?php if ($_SESSION['user_id']) { ?>
 <center><h1>Add/edit employee details</h1></center>
 
 <div>
@@ -12,5 +12,11 @@
 		require_once(BASE_DIR.'/employees/save.php');
 		require_once(BASE_DIR.'/employees/form.php'); ?>
 	</div>
-</div>
-<?php require_once(BASE_DIR.'/common/footer.php') ?>
+</div> 
+<?php require_once(BASE_DIR.'/common/footer.php');
+
+} else {
+
+header('location:'.BASE_URL.'index.php');
+
+}

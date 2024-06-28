@@ -17,7 +17,7 @@ require_once('common/header.php'); ?>
 <?php require_once('common/footer.php');
 } else {
 
-header('location:index.php');
+header('location:'.BASE_URL.'index.php');
 
 }
 
